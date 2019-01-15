@@ -12,6 +12,8 @@
 		5259156521ED7BCD00F543F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5259156321ED7BCD00F543F9 /* Main.storyboard */; };
 		5259156721ED7BCF00F543F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5259156621ED7BCF00F543F9 /* Assets.xcassets */; };
 		5259156A21ED7BCF00F543F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5259156821ED7BCF00F543F9 /* LaunchScreen.storyboard */; };
+		5259157221ED7CD300F543F9 /* AddressBookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259157121ED7CD300F543F9 /* AddressBookModel.swift */; };
+		5259157421ED7D2300F543F9 /* Extension+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5259157321ED7D2300F543F9 /* Extension+.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		5259156621ED7BCF00F543F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5259156921ED7BCF00F543F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5259156B21ED7BCF00F543F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5259157121ED7CD300F543F9 /* AddressBookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressBookModel.swift; sourceTree = "<group>"; };
+		5259157321ED7D2300F543F9 /* Extension+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				5259155F21ED7BCD00F543F9 /* AppDelegate.swift */,
 				5259156121ED7BCD00F543F9 /* ViewController.swift */,
+				5259157121ED7CD300F543F9 /* AddressBookModel.swift */,
+				5259157321ED7D2300F543F9 /* Extension+.swift */,
 				5259156321ED7BCD00F543F9 /* Main.storyboard */,
 				5259156621ED7BCF00F543F9 /* Assets.xcassets */,
 				5259156821ED7BCF00F543F9 /* LaunchScreen.storyboard */,
@@ -135,8 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5259157221ED7CD300F543F9 /* AddressBookModel.swift in Sources */,
 				5259156221ED7BCD00F543F9 /* ViewController.swift in Sources */,
 				5259156021ED7BCD00F543F9 /* AppDelegate.swift in Sources */,
+				5259157421ED7D2300F543F9 /* Extension+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
