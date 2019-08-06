@@ -7,6 +7,6 @@ var testArray = ["王老二", "谢老三", "李老四", "徐老五", "张老六"
 
 Most of the editable native TableViews on the Internet are single-section, and the data source is also required to be dictionary-array nested. By drawing on the open source sorting method, the loaded array data output grouping TableView is sorted out, and single/all-selection deletion is supported. operating.
 
-<img width="360" height="720" src="https://api.superbed.cn/pic/5c416d7b9dc6d6a3fa0c95ee"/>
+<img width="360" height="720" src="https://s2.ax1x.com/2019/08/06/ef7yPU.png"/>
 
 The code is rough, please forgive me.
